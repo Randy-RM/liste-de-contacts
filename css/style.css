@@ -1,0 +1,334 @@
+/*START font-face roboto*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Light.eot');
+    src: url('../font/roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Light.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Light.woff') format('woff'),
+        url('../font/roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Regular.eot');
+    src: url('../font/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Regular.woff') format('woff'),
+        url('../font/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Medium.eot');
+    src: url('../font/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Medium.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Medium.woff') format('woff'),
+        url('../font/roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Bold.eot');
+    src: url('../font/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Bold.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Bold.woff') format('woff'),
+        url('../font/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Black.eot');
+    src: url('../font/roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Black.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Black.woff') format('woff'),
+        url('../font/roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*END font-face roboto*/
+
+/*===============START GLOBAL===============*/
+body {
+    margin: 0;
+    padding: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*===============END GLOBAL===============*/
+
+/*===============START CONTAINER===============*/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-1 {
+    padding: 1%;
+}
+
+.container-2 {
+    padding: 2%;
+}
+
+.content-style-evenly {
+    justify-content: space-evenly;
+}
+
+.content-style-center {
+    justify-content: center;
+}
+
+.content-style-between {
+    justify-content: space-between;
+}
+
+.content-vertical-center {
+    align-items: center;
+}
+
+.content-vertical-start {
+    align-items: flex-start;
+}
+
+/*===============END CONTAINER===============*/
+
+/*===============START BACKGROUND===============*/
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-ligth-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-gray-600 {
+    background-color: #e5e5e5;
+}
+
+.bg-dark {
+    background-color: rgb(66, 66, 66);
+}
+
+.bg-blue {
+    background-color: #2f80ed;
+}
+
+.bg-red {
+    background-color: #eb5757;
+}
+
+/*===============END BACKGROUND===============*/
+
+/*===============START TEXT===============*/
+
+.text-white {
+    color: white;
+}
+
+.text-gray-500 {
+    color: #949191;
+}
+
+.text-gray-600 {
+    color: rgb(66, 66, 66);
+}
+
+.text-blue {
+    color: #2f80ed;
+}
+
+.text-red {
+    color: #eb5757;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-size-1 {
+    font-size: 1.5rem;
+}
+
+.text-in-box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+/*===============END TEXT===============*/
+
+/*===============START width===============*/
+.my-width-100 {
+    width: 100%;
+}
+
+.my-width-80 {
+    width: 80%;
+}
+
+.my-width-60 {
+    width: 60%;
+}
+
+.my-width-55 {
+    width: 55%;
+}
+
+.my-width-50 {
+    width: 50%;
+}
+
+.my-width-45 {
+    width: 45%;
+}
+
+.my-width-43 {
+    width: 43%;
+}
+
+.my-width-40 {
+    width: 40%;
+}
+
+.my-width-30 {
+    width: 30%;
+}
+
+.my-width-5 {
+    width: 5%;
+}
+
+/*===============END width===============*/
+
+.form-control {
+    width: 100%;
+    padding: 2%;
+    border: solid 1px rgba(47, 128, 237, 0.5);
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    overflow-y: scroll;
+}
+
+.btn {
+    width: 100%;
+    padding: 5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-blue {
+    background-color: #2f80ed;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #2966b6;
+}
+
+.btn-red {
+    background-color: #eb5757;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+    background-color: #be4848;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    color: rgb(66, 66, 66);
+    background-color: #e5e5e5;
+    display: inline-block;
+    padding: 5% 0;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+    background-color: #cac9c9;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.my-shadow-2 {
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-border-blue {
+    border: solid 3px rgba(47, 128, 237, 0.2);
+}
+
+.card-border-bottom-blue {
+    border-bottom: solid 2px rgba(47, 128, 237, 0.2);
+}
+
+.card-ronded {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top-bottom {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.margin-left-right {
+    margin-left: 5%;
+    margin-right: 5%;
+}
